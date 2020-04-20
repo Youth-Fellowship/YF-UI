@@ -64,11 +64,11 @@ export default class HymnContent extends Component {
           <Text style={
            style.textContentstyle}
            suppressHighlighting={false}
-           selectable={true} 
+           selectable={true}
            selectionColor={Platform.OS === 'android' ? 'purple' : null}> {this.state.content} </Text>
         </View> */}
         {this.content()}
-        <View style={}></View>
+        <View style={{}}></View>
       </View>
     );
   }
