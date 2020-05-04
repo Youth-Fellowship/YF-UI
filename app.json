@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "yfs",
-    "slug": "yf",
+    "name": "hymnalsAndWow",
+    "slug": "hymnalsandwow",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -11,9 +11,9 @@
     ],
     "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/yfImage.png",
+    "icon": "./src/assets/images/icon.png",
     "splash": {
-      "image": "./assets/images/Rectangle.png",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -27,8 +27,8 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "YFG.App"
+      "package": "com.youthfellowshipgroup.hymnalsandwow"
     },
-    "description": ""
+    "description": "An App for Hymnals, Words of Wisdom and Spiritual Messages"
   }
 }
